@@ -19,3 +19,5 @@ autoload -Uz compinit ; compinit
 zstyle ':completion:*' menu select
 # 補完候補をできるだけ詰めて表示する
 setopt list_packed
+# 大文字・小文字を区別しない
+zstyle ':completion:*' matcher-list 'm:{a-z}={A-Z}'
