@@ -4,6 +4,9 @@ SCRIPT_DIR="${HOME}/dotfiles/dot.zsh"
 # === Environment settings ===
 . ${SCRIPT_DIR}/environment.sh
 
+# === Path setting ===
+. ${SCRIPT_DIR}/path.sh
+
 # === Alias settings ===
 . ${SCRIPT_DIR}/alias.sh
 
@@ -19,6 +22,3 @@ SCRIPT_DIR="${HOME}/dotfiles/dot.zsh"
 # === Setting theme starship ===
 # Must already be installed starship
 eval "$(starship init zsh)"
-
-# === Path setting ===
-# . ${SCRIPT_DIR}/path.sh
