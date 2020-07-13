@@ -9,9 +9,10 @@ limit coredumpsize 0
 
 # ビープ音を鳴らさないようにする
 setopt no_beep
-
 # ディレクトリにマッチした場合 末尾に / を付加
 setopt mark_dirs
+# cd無でもディレクトリ移動
+setopt AUTO_CD
 
 # 自動補完を有効にする
 autoload -Uz compinit ; compinit
