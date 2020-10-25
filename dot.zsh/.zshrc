@@ -14,7 +14,7 @@ SCRIPT_DIR="${HOME}/dotfiles/dot.zsh"
 . ${SCRIPT_DIR}/history.sh
 
 # === Functions settings ===
-# . ${SCRIPT_DIR}/functions/file_name
+. ${SCRIPT_DIR}/functions/git_diff_archive.sh
 
 # === Submodules settings ===
 # . ${SCRIPT_DIR}/submodules/file_name
