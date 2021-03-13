@@ -19,5 +19,9 @@ alias be='bundle exec'
 alias binst='bundle install'
 alias bup='bundle update'
 alias bes='bundle exec rails s'
+
 # vagrant
 alias va='vagrant'
+
+# Homebrew
+alias brew-mente='brew update && brew upgrade && brew cleanup'
