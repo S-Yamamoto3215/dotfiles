@@ -23,5 +23,6 @@ SCRIPT_DIR="${HOME}/dotfiles/dot.zsh"
 # === Setting theme starship ===
 # Must already be installed starship
 eval "$(starship init zsh)"
+export STARSHIP_CONFIG=${SCRIPT_DIR}/starship_config.toml
 
 typeset -U path PATH
