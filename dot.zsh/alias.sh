@@ -25,3 +25,6 @@ alias va='vagrant'
 
 # Homebrew
 alias brew-mente='brew update && brew upgrade && brew cleanup'
+
+# RubyMine
+alias rubymine='open -na "RubyMine.app"'
