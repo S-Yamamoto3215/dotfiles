@@ -28,3 +28,6 @@ alias brew-mente='brew update && brew upgrade && brew cleanup'
 
 # RubyMine
 alias rubymine='open -na "RubyMine.app"'
+
+# Docker Compose
+alias doccom='docker compose'
