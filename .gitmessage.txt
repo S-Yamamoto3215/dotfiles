@@ -1,0 +1,30 @@
+:emoji: [#issue No.]: description
+
+[optional body]
+
+[optional Reference URL]
+
+# ==== Emojis ====
+# :sparkles: / ✨ / Introduce new features.
+# :bug: / 🐛 / Fix a bug.
+# :package: / 📦️ / Add or update compiled files or packages.
+# :recycle: / ♻️ / Refactor code.
+# :memo: / 📝 / Add or update documentation.
+# :art: / 🎨 / Improve structure / format of the code.
+# :white_check_mark: / ✅ / Add, update, or pass tests.
+# :zap: / ⚡️ / Improve performance.
+# :green_heart: / 💚 / Fix CI Build.
+# :building_construction: / 🏗️ / Make architectural changes.
+# :rewind: / ⏪️ / Revert changes.
+#
+# ==== Exsample ====
+# :bug: [#1]: Fixed display collapse when the screen is narrowed.
+#
+# Before the fix, the display collapsed under 500px due to the width setting,
+# so the setting was changed to %.
+#
+# BREAKING CHANGE
+# Before this fix foo wasn't enabled at all, behavior changes from <old> to <new>
+#
+# Closes D2IQ-12345
+#
