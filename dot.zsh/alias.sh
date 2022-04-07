@@ -6,13 +6,11 @@ alias ll="ls -lF"
 alias DS-delete="find ./ -name '.DS_Store' -exec rm -f {} \;"
 
 # trash-put
-if type trash-put &> /dev/null
-then
-  alias rm='trash-put'
-fi
+alias rm='trash-put'
+alias rm-empty='trash-empty'
 alias rm-l='trash-list'
 alias rm-re='trash-restore'
-alias rm-empty='trash-empty'
+
 
 # bundler
 alias be='bundle exec'
