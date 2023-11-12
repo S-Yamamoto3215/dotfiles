@@ -18,17 +18,8 @@ alias binst='bundle install'
 alias bup='bundle update'
 alias bes='bundle exec rails s'
 
-# vagrant
-alias va='vagrant'
-
 # Homebrew
 alias brew-mente='brew update && brew upgrade && brew cleanup'
-
-# RubyMine
-alias rubymine='open -na "RubyMine.app"'
-
-# Docker Compose
-alias doccom='docker compose'
 
 # git
 alias git-branch-d-mearged="git branch --merged | egrep -v '\*|develop|main' | xargs git branch -d"
