@@ -20,9 +20,10 @@ SCRIPT_DIR="${HOME}/dotfiles/dot.zsh"
 # === Submodules settings ===
 # . ${SCRIPT_DIR}/submodules/file_name
 
-# === Setting direnv ===
-export EDITOR=vim
-eval "$(direnv hook zsh)"
+# === Setting asdf ===
+. /opt/homebrew/opt/asdf/libexec/asdf.sh
+fpath=(${ASDF_DIR}/completions $fpath)
+autoload -Uz compinit && compinit
 
 # === Setting theme starship ===
 # Must already be installed starship
