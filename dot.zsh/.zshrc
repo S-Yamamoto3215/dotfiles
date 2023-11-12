@@ -25,6 +25,9 @@ SCRIPT_DIR="${HOME}/dotfiles/dot.zsh"
 fpath=(${ASDF_DIR}/completions $fpath)
 autoload -Uz compinit && compinit
 
+# === Setting Homebrew ===
+eval "$(/opt/homebrew/bin/brew shellenv)"
+
 # === Setting theme starship ===
 # Must already be installed starship
 eval "$(starship init zsh)"
