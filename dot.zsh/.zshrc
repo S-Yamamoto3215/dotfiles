@@ -22,7 +22,6 @@ SCRIPT_DIR="${HOME}/dotfiles/dot.zsh"
 
 # === Setting direnv ===
 export EDITOR=vim
-eval "$(direnv hook zsh)"
 
 # === Setting asdf ===
 . /opt/homebrew/opt/asdf/libexec/asdf.sh
