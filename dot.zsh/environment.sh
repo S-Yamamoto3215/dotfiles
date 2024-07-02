@@ -4,6 +4,9 @@ export LANG=ja_JP.UTF-8
 # OSX tarF
 export COPYFILE_DISABLE=1
 
+# ASDF
+export ASDF_GOLANG_MOD_VERSION_ENABLED=true
+
 # Limit
 limit coredumpsize 0
 

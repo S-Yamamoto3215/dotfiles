@@ -8,3 +8,5 @@ export PATH=/usr/local/git/bin:$PATH
 export PATH=$HOME/devtools:$PATH
 
 export PATH="$HOME/.local/bin:$PATH"
+
+export PATH="/opt/homebrew/opt/openjdk/bin:$PATH"
