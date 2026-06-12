@@ -9,4 +9,6 @@ export PATH=$HOME/devtools:$PATH
 
 export PATH="$HOME/.local/bin:$PATH"
 
+export PATH="${ASDF_DATA_DIR:-$HOME/.asdf}/shims:$PATH"
+
 export PATH="/opt/homebrew/opt/openjdk/bin:$PATH"

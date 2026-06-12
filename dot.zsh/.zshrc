@@ -4,6 +4,9 @@ SCRIPT_DIR="${HOME}/dotfiles/dot.zsh"
 # === Environment settings ===
 . ${SCRIPT_DIR}/environment.sh
 
+# === Setting Homebrew ===
+eval "$(/opt/homebrew/bin/brew shellenv)"
+
 # === Path setting ===
 . ${SCRIPT_DIR}/path.sh
 
@@ -25,12 +28,8 @@ SCRIPT_DIR="${HOME}/dotfiles/dot.zsh"
 export EDITOR=vim
 
 # === Setting asdf ===
-. /opt/homebrew/opt/asdf/libexec/asdf.sh
-fpath=(${ASDF_DIR}/completions $fpath)
+fpath=(${ASDF_DATA_DIR:-$HOME/.asdf}/completions $fpath)
 autoload -Uz compinit && compinit
-
-# === Setting Homebrew ===
-eval "$(/opt/homebrew/bin/brew shellenv)"
 
 # === Setting theme starship ===
 # Must already be installed starship
